@@ -1,13 +1,29 @@
 # Marshmallow Laravel Installer
 
-<a href="https://github.com/laravel/installer/actions"><img src="https://github.com/laravel/installer/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/installer"><img src="https://poser.pugx.org/laravel/installer/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/installer"><img src="https://poser.pugx.org/laravel/installer/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/installer"><img src="https://poser.pugx.org/laravel/installer/license.svg" alt="License"></a>
+<a href="https://gitlab.com/marshmallow-packages/installer">
+	<img src="https://gitlab.com/marshmallow-packages/installer/badges/master/pipeline.svg" alt="Build Status">
+</a>
+<a href="https://gitlab.com/marshmallow-packages/installer">
+	<img src="https://poser.pugx.org/marshmallow/installer/d/total.svg" alt="Total Downloads">
+</a>
+<a href="https://gitlab.com/marshmallow-packages/installer">
+	<img src="https://poser.pugx.org/marshmallow/installer/v/stable.svg" alt="Latest Stable Version">
+</a>
+<a href="https://gitlab.com/marshmallow-packages/installer">
+	<img src="https://poser.pugx.org/marshmallow/installer/license.svg" alt="License">
+</a>
 
 ## Official Documentation
 
 Documentation for installing Laravel can be found on the [Laravel website](https://laravel.com/docs#installing-laravel).
+
+```bash
+composer global require marshmallow/installer
+```
+
+```bash
+marshmallow new
+```
 
 ## Contributing
 
