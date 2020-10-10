@@ -41,7 +41,7 @@ class NewCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-    	throw new RuntimeException('This is a test from Marshmallow');
+        throw new RuntimeException('This is a test from Marshmallow');
 
         if (version_compare(PHP_VERSION, '7.3.0', '<')) {
             throw new RuntimeException('The Laravel installer requires PHP 7.3.0 or greater. Please use "composer create-project laravel/laravel" instead.');
@@ -143,12 +143,15 @@ class NewCommand extends Command
         switch ($version) {
             case 'develop':
                 $filename = 'latest-develop.zip';
+
                 break;
             case 'auth':
                 $filename = 'latest-auth.zip';
+
                 break;
             case 'master':
                 $filename = 'latest.zip';
+
                 break;
         }
 
